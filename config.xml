@@ -48,9 +48,10 @@
     -->
 
 	<icon height="512" src="res/icon/cordova_512.png" width="512" />
-    <icon cdv:platform="android" height="96" src="res/icon/cordova_android_96.png" width="96" />
-    <icon cdv:platform="blackberry" height="80" src="res/icon/cordova_bb_80.png" width="80" />
-    <icon cdv:platform="ios" height="144" src="res/icon/cordova_ios_144.png" width="144" />
+    <icon gap:platform="android" height="96" src="res/icon/cordova_android_96.png" width="96" />
+    <icon gap:platform="blackberry" height="80" src="res/icon/cordova_bb_80.png" width="80" />
+    <icon gap:platform="ios" height="144" src="res/icon/cordova_ios_144.png" width="144" />
+    
     <gap:splash gap:platform="android" height="480" src="res/screen/android_hdpi_landscape.png" width="800" />
     <gap:splash gap:platform="android" height="800" src="res/screen/android_hdpi_portrait.png" width="480" />
     <gap:splash gap:platform="android" height="200" src="res/screen/android_ldpi_landscape.png" width="320" />
@@ -72,18 +73,6 @@
     <gap:splash gap:platform="winphone" height="800" src="res/screen/windows_phone_portrait.jpg" width="480" />
     
     
-    <!--
-        Define access to external domains.
-
-        <access />            - a blank access tag denies access to all external resources.
-        <access origin="*" /> - a wildcard access tag allows access to all external resource.
-
-        Otherwise, you can specify specific domains:
-    -->
     <access origin="*"/> <!-- allow local pages -->
-    <!--
-        <access origin="http://phonegap.com" />                    - allow any secure requests to http://phonegap.com/
-        <access origin="http://phonegap.com" subdomains="true" />  - same as above, but including subdomains, such as http://build.phonegap.com/
-    -->
-
+    
 </widget>
